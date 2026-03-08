@@ -1,0 +1,56 @@
+.
+|____assets
+| |____css
+| | |____styles.css
+| |____images
+| |____js
+| | |____script.js
+|____docs
+| |____Project Quill.docx
+| |____README.md
+| |____schema.sql
+|____file_structure.txt
+|____includes
+| |____config.php
+| |____functions.php
+|____index.php
+|____src
+| |____admin
+| | |____dashboard.php
+| |____auth
+| | |____auth.php
+| |____author
+| | |____create.php
+| | |____dashboard.php
+| | |____edit.php
+| |____viewer
+| | |____index.php
+| | |____view.php
+.
+|____assets
+| |____css
+| | |____styles.css
+| |____images
+| |____js
+| | |____script.js
+|____docs
+| |____Project Quill.docx
+| |____README.md
+| |____schema.sql
+|____file_structure.txt
+|____includes
+| |____config.php
+| |____functions.php
+|____index.php
+|____src
+| |____admin
+| | |____dashboard.php
+| |____auth
+| | |____auth.php
+| |____author
+| | |____create.php
+| | |____dashboard.php
+| | |____edit.php
+| |____viewer
+| | |____index.php
+| | |____view.php

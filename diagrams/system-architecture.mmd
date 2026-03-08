@@ -1,0 +1,23 @@
+flowchart TD
+    C1[Viewer Client]
+    C2[Author/Admin Client]
+    WEB[Apache + PHP Runtime]
+    AUTH[Session + Role Authorization]
+    VIEW[Viewer Module]
+    AUTHOR[Author Module]
+    ADMIN[Admin Module]
+    FUNCS[Shared Functions]
+    DB[(MySQL)]
+    UP[(uploads)]
+
+    C1 --> WEB
+    C2 --> WEB
+    WEB --> AUTH
+    AUTH --> VIEW
+    AUTH --> AUTHOR
+    AUTH --> ADMIN
+    VIEW --> FUNCS
+    AUTHOR --> FUNCS
+    ADMIN --> FUNCS
+    FUNCS --> DB
+    AUTHOR --> UP
